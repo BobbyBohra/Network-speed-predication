@@ -1,38 +1,35 @@
 # Network Speed Prediction
 
-Predicting network speed using machine learning models.
+## 🚀 About The Project
 
-## Overview
+NetPulse is a professional internet speed testing application that helps you monitor your internet connection quality in real-time.
 
-This project aims to predict network speed (download/upload) based on network parameters and user data. It demonstrates preprocessing, model training, and prediction using Python. This can help analyze network performance and provide insights for optimization.
+### Features
 
-## Features
+- ✅ Test Download Speed
+- ✅ Test Upload Speed  
+- ✅ Check Ping/Latency
+- ✅ View Speed Test History
+- ✅ Interactive Graphs
+- ✅ Monitor Network Interfaces
+- ✅ Dark Theme UI
 
-- Data preprocessing and feature engineering
-- Machine learning model for predicting network speed
-- Performance evaluation
-- Easy-to-run Python script
+## 🛠️ Built With
 
-## Dataset
+- Python
+- Streamlit
+- speedtest-cli
+- Plotly
+- psutil
 
-> **Note:** You need to provide your dataset in CSV format.  
-> Columns should include relevant network parameters (e.g., latency, jitter, signal strength, bandwidth) and target variable (speed).  
-
-Example dataset structure:
-
-| Parameter        | Description                    |
-|-----------------|--------------------------------|
-| latency          | Latency in milliseconds        |
-| jitter           | Network jitter                 |
-| signal_strength  | Signal strength (dBm)          |
-| bandwidth        | Bandwidth in Mbps              |
-| download_speed   | Target variable (Mbps)         |
-| upload_speed     | Target variable (Mbps)         |
-
-## Installation
-
-1. Clone this repository:
+## 📦 Installation
 
 ```bash
-git clone https://github.com/BobbyBohra/Network-speed-predication.git
-cd Network-speed-predication
+# 1. Clone the repository
+https://github.com/BobbyBohra/Network-speed-predication
+
+# 3. Install requirements
+pip install -r requirements.txt
+
+# 4. Run the app
+streamlit run Network.py
